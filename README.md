@@ -8,12 +8,18 @@ The project uses the `vskdev-oneui-vue` library as a local package.
 
 ### How to use components
 
-To use components from the library, import them and the required CSS in your Vue components:
+1. **Import Global CSS**: In your `src/main.js`, import the library's CSS once:
+
+```javascript
+// src/main.js
+import 'vskdev-oneui-vue/dist/vskdev-oneui-vue.css'
+```
+
+2. **Use Components**: Now you can use any component in your Vue files without re-importing the CSS:
 
 ```vue
 <script setup>
 import { Button } from 'vskdev-oneui-vue'
-import 'vskdev-oneui-vue/dist/vskdev-oneui-vue.css'
 </script>
 
 <template>

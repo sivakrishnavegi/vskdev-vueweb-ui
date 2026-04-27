@@ -1,6 +1,5 @@
 <script setup>
 import { Button } from 'vskdev-oneui-vue'
-import 'vskdev-oneui-vue/dist/vskdev-oneui-vue.css'
 </script>
 
 <template>
